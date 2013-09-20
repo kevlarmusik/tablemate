@@ -1,0 +1,18 @@
+<%= form_for(@user) do |f| %>
+
+  <div class="field">
+    <%= f.label :name, "User Name" %><br />
+    <%= f.text_field :name %>
+  </div>
+  <div class="field">
+    <%= f.label :email, "Your Email Address" %><br />
+    <%= f.text_field :email %>
+  </div>
+  <div class="field">
+    <%= f.label :is_owner, "Are You A Restaurant Owner?" %><br />
+    <%= f.check_box :is_owner %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
