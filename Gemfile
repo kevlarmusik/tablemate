@@ -46,3 +46,7 @@ end
 # gem 'capistrano', group: :development
 
 gem 'carrierwave'
+
+gem 'devise'
+
+

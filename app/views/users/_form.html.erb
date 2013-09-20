@@ -9,6 +9,14 @@
     <%= f.text_field :email %>
   </div>
   <div class="field">
+    <%= f.label :password %><br/>
+    <%= f.password_field :password %>
+  </div>
+  <div class="field">
+    <%= f.label :password_confirmation %><br/>
+    <%= f.password_field :password_confirmation %>
+  </div>
+  <div class="field">
     <%= f.label :is_owner, "Are You A Restaurant Owner?" %><br />
     <%= f.check_box :is_owner %>
   </div>
